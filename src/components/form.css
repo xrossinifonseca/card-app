@@ -1,0 +1,90 @@
+.form {
+  display: flex;
+  flex-direction: column;
+  height: auto;
+
+  width: 50%;
+}
+.form input {
+  border-radius: 5px;
+  height: 40px;
+  width: 80%;
+  border: 1px solid #000;
+  margin-bottom: 5px;
+}
+.form label {
+  margin-bottom: 5px;
+  font-size: 12px;
+  font-weight: 500;
+  color: rgb(95, 20, 95);
+}
+.exp-date {
+  display: flex;
+}
+.exp-date input {
+  width: 35%;
+  margin-right: 5px;
+}
+.exp-info {
+  display: flex;
+  width: 80%;
+}
+.cvv {
+  display: flex;
+  flex-direction: column;
+}
+.form button,
+.sucess button {
+  width: 80%;
+  height: 40px;
+  border-radius: 10px;
+  color: white;
+  background-color: rgb(95, 20, 95);
+  border: none;
+  margin-top: 5px;
+}
+.errorMessage {
+  color: red;
+  font-size: 14px;
+  margin-bottom: 2px;
+}
+.sucess {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.sucess h1 {
+  margin-top: 20px;
+  letter-spacing: 2px;
+}
+.sucess p {
+  font-size: 15px;
+  color: #ccc;
+}
+.sucess button {
+  width: 100%;
+  margin-top: 20px;
+}
+
+@media screen and (max-width: 600px) {
+  .form {
+    width: 100%;
+    align-items: center;
+  }
+}
+.form input {
+  height: 35px;
+}
+.form label {
+  width: 80%;
+}
+.sucess {
+  width: 100%;
+}
+.sucess button {
+  width: 50%;
+}
+.errorMessage {
+  font-size: 12px;
+  width: 80%;
+}
